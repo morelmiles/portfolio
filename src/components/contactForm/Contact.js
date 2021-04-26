@@ -1,0 +1,80 @@
+import React from 'react';
+
+const ContactForm = () => {
+    return (
+        <>
+            <h4
+                className=" text-center mt-5
+       heading text-dark"
+            >
+                Contact Me
+            </h4>
+            <p className="text-center contact__para">
+                Want us to collaborate on a project? <br />
+                Get in touch.
+            </p>
+            <div className="container">
+                <form>
+                    <div className="row">
+                        <div className="col-md-6 mb-5">
+                            <input
+                                type="text"
+                                className="form-control input__box"
+                                id="name"
+                                placeholder="Name"
+                                value=""
+                                required
+                            />
+                            <div class="invalid-feedback">
+                                Valid name is required.
+                            </div>
+                        </div>
+                        <div className="col-md-6 mb-5">
+                            <input
+                                type="email"
+                                className="form-control input__box"
+                                id="email"
+                                placeholder="Email Address"
+                                value=""
+                                required
+                            />
+                            <div class="invalid-feedback">
+                                Valid email address is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 mb-2">
+                            <select
+                                class=" d-block form-control input__box box-shadow w-100"
+                                id="reason"
+                                required
+                            >
+                                <option value="">Select a reason...</option>
+                                <option value="hi">I just wanna say Hi</option>
+                                <option value="project">
+                                    I have a project
+                                </option>
+                                <option value="inquiry">
+                                    I have an inquiry...
+                                </option>
+                            </select>
+                        </div>
+                        <div className="col-md-6 mb-2">
+                            <textarea
+                                className="form-control"
+                                rows="4"
+                                placeholder="Message"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <button role="submit" className="btnSubmit mt-3 btn">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </>
+    );
+};
+
+export default ContactForm;
