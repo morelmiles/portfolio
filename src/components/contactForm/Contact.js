@@ -14,7 +14,11 @@ const ContactForm = () => {
                 Get in touch.
             </p>
             <div className="container">
+                <div className="row">
+<div className=""></div>
+                </div>
                 <form>
+                    
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
@@ -68,7 +72,7 @@ const ContactForm = () => {
                             ></textarea>
                         </div>
                     </div>
-                    <button role="submit" className="btnSubmit mt-3 btn">
+                    <button role="submit" className="btnSubmit mt-3 mb-3 btn">
                         Send Message
                     </button>
                 </form>

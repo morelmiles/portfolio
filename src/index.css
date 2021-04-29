@@ -1,148 +1,172 @@
 /* GLOBAL STYLES */
 
 :root {
-  --primaryDark: #212121;
-  --bgColor: #ECF3FD;
-  --iconColor: #41937A;
+    --primaryDark: #212121;
+    --bgColor: #ecf3fd;
+    --iconColor: #41937a;
 }
 
 body {
-  margin: 0;
-  scroll-behavior: smooth;
-  padding: 0;
-  box-sizing: border-box;
-background-color: var(--bgColor);
-
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bgColor);
 }
 @font-face {
-  font-family: "AtamiBold";
-  src: url('./assets/fonts/Atami-Bold.woff');
-}
-
-@font-face {
-  font-family: "Atami-Regular";
-  src: url('./assets/fonts/Atami-Regular.woff');
+    font-family: 'AtamiBold';
+    src: url('./assets/fonts/Atami-Bold.woff');
 }
 
 @font-face {
-  font-family: "AtamiStencil";
-  src: url('./assets/fonts/Atami-Stencil.woff');
+    font-family: 'Atami-Regular';
+    src: url('./assets/fonts/Atami-Regular.woff');
 }
 
-a{
-  text-decoration: none;
+@font-face {
+    font-family: 'AtamiStencil';
+    src: url('./assets/fonts/Atami-Stencil.woff');
 }
 
-a:hover{
-  text-decoration: none;
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* HERO */
 .name__logo {
-  font-family: 'AtamiBold';
-  margin-left: 3rem;
-  font-size: 2rem;
-  color: var(--primaryDark);
+    font-family: 'AtamiBold';
+    margin-left: 3rem;
+    font-size: 2rem;
+    color: var(--primaryDark);
 }
 
-.nav__link{
-  font-family: 'AtamiBold';
-  margin-left: 20px;
+.nav__link {
+    font-family: 'AtamiBold';
+    margin-left: 20px;
 }
 
-.nav__bar{
-  height: 5rem;
+.nav__bar {
+    height: 5rem;
 }
 
-nav{
-  margin-right:6rem ;
+nav {
+    margin-right: 6rem;
 }
 
-.hero__container{
-  margin: 5rem 11rem;
-  height: 100%;
-
+.hero__container {
+    margin: 5rem 11rem;
+    height: 100%;
 }
 
-.hero__heading{
-  font-family:'AtamiStencil' ;
-  font-size: 24px;
-  }
-
-.hero__text{
-  margin-top: 7rem;
-  }
-
-
-.hero__img{
-  height: 384.43px;
-  width: 371px;
-  border-radius: 35px;
+.hero__heading {
+    font-family: 'AtamiStencil';
+    font-size: 24px;
 }
 
-.hero__para{
-  font-size: 18px;
-  font-weight: 400;
+.hero__text {
+    margin-top: 7rem;
 }
 
-.hero__icons{
-  font-size: 1.8rem;
-  color: var(--iconColor);
+.hero__img {
+    height: 384.43px;
+    border-radius: 50%;
+}
+
+.hero__para {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero__icons {
+    font-size: 1.8rem;
+    color: var(--iconColor);
+}
+
+@media screen and (max-width: 768px) {
+    .name__logo {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        display: none;
+    }
+
+    nav {
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        background-color: var(--bgColor);
+    }
+
+    .nav__bar {
+        background-color: var(--bgColor);
+        display: none;
+    }
+    .hero__container {
+        margin: 0 auto;
+    }
+
+    .hero__img {display: block;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+        width: 192.43px;
+    }
 }
 
 /*  SKILLS */
-h4 .heading{
-font-family: 'AtamiBold';
-font-size: 1.5rem;
-margin-top: 1.5rem;
+h4 .heading {
+    font-family: 'AtamiBold';
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .icon_container {
-  display: flex;
-  margin: auto 0;
+    display: flex;
+    margin: auto 0;
 }
 
-.icon{
-  font-size: 5rem;
-  margin-right: 5rem;
+.icon {
+    font-size: 5rem;
+    margin-right: 5rem;
     color: var(--iconColor);
 }
 
 /* CONTACT ME */
-.contact__para{
-  font-weight: 400; 
-  
-font-size: 18px;
+.contact__para {
+    font-weight: 400;
 
+    font-size: 18px;
 }
 
-.input__box{
-height:60px ;
+.input__box {
+    height: 60px;
 }
 
-.btnSubmit{
-  display: block;
-  align-items: center;
-  width: 10rem;
-  height: 3rem;
-  background-color: var(--iconColor);
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-  font-family: 'AtamiBold';
+.btnSubmit {
+    display: block;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--iconColor);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'AtamiBold';
 }
 
-.btnSubmit:hover{
-  color: white;
+.btnSubmit:hover {
+    color: white;
 }
 
 /* FOOTER */
 
-.footer__container{
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+.footer__container {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
 }
-.footer{  
-  font-family: 'AtamiBold';
+.footer {
+    font-family: 'AtamiBold';
 }
-
