@@ -13,7 +13,7 @@ const Hero = () => {
                     src={heroImg}
                     loading="lazy"
                     srcSet
-                    alt="Image of Luigi Morel speaking at a conference "
+                    alt="Luigi Morel speaking at a conference "
                 />
             </div>
             <div className="col-md-6 hero__text">

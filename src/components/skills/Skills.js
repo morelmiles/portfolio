@@ -17,11 +17,11 @@ const Skills = () => {
     <>
       <h4
         className=" text-center my-5  
-      headings heading text-dark"
+       heading text-dark"
       >
         Technical Skills
       </h4>
-      <div className="container mr-4 ">
+      <div className="container">
         <div className="icon__container">
           <i className="icon">
             <FaNodeJs />

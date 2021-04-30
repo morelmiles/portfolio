@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaCopyright } from 'react-icons/fa';
 const Footer = () => {
     const date = new Date();
     const getYear = date.getFullYear();

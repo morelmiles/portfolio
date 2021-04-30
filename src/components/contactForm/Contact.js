@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ContactForm = () => {
+const Contact = () => {
     return (
         <>
             <h4
@@ -52,6 +52,7 @@ const ContactForm = () => {
                             <select
                                 class=" d-block form-control input__box box-shadow w-100"
                                 id="reason"
+                                placeholder="Select reason"
                                 required
                             >
                                 <option value="">Select a reason...</option>
@@ -72,7 +73,7 @@ const ContactForm = () => {
                             ></textarea>
                         </div>
                     </div>
-                    <button role="submit" className="btnSubmit mt-3 mb-3 btn">
+                    <button type="submit" className="btnSubmit mt-3 mb-3 btn">
                         Send Message
                     </button>
                 </form>
@@ -81,4 +82,4 @@ const ContactForm = () => {
     );
 };
 
-export default ContactForm;
+export default Contact;

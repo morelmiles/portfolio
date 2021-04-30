@@ -4,6 +4,7 @@
     --primaryDark: #212121;
     --bgColor: #ecf3fd;
     --iconColor: #41937a;
+    --placeholders: #c4c4c4;
 }
 
 body {
@@ -37,6 +38,7 @@ a:hover {
 }
 
 /* HERO */
+
 .name__logo {
     font-family: 'AtamiBold';
     margin-left: 3rem;
@@ -51,6 +53,7 @@ a:hover {
 
 .nav__bar {
     height: 5rem;
+    margin-left: 100px;
 }
 
 nav {
@@ -80,6 +83,7 @@ nav {
 .hero__para {
     font-size: 18px;
     font-weight: 400;
+        margin-right: 100px;
 
 }
 
@@ -105,10 +109,11 @@ nav {
     .nav__bar {
         background-color: var(--bgColor);
         display: none;
+        margin-left: 0;
     }
-    .hero__text{
-          margin: 2rem 3rem 1.2rem  3rem;
 
+    .hero__text {
+        margin: 2rem 3rem 1.2rem 1rem;
     }
 
     .hero__img {
@@ -119,39 +124,71 @@ nav {
         height: auto;
         width: 192.43px;
     }
-    .hero__para{
-      margin-right: 0;
+    .hero__para {
+        margin-right: 0;
     }
 }
 
 /*  SKILLS */
+
 h4 .heading {
     font-family: 'AtamiBold';
     font-size: 1.5rem;
     margin-top: 1.5rem;
 }
 
-.icon_container {
+.icon__container {
     display: flex;
-    margin: auto 0;
+    align-items: center;
+    display: block;
+    justify-content: center;
 }
 
 .icon {
+    align-items: center;
+    justify-content: center;
     font-size: 5rem;
     margin-right: 5rem;
     color: var(--iconColor);
 }
 
+@media screen and (max-width: 768px) {
+    .icon__container {
+        margin-left: 40px;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .icon__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
 /* CONTACT ME */
+
 .contact__para {
     font-weight: 400;
-
     font-size: 18px;
 }
 
 .input__box {
     height: 60px;
 }
+
+input::placeholder, textarea::placeholder{
+color: var(--placeholders)
+}
+
+select:nth-child(0){
+    color: var(--placeholders);
+}
+
 
 .btnSubmit {
     display: block;
