@@ -4,7 +4,7 @@ import heroImg from '../../assets/img/hero-img.jpg';
 
 import { FaGithub, FaDribbble, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
-const Hero = () => {
+function Hero  (props) {
     return (
         <div className="row">
             <div className="col-md-6   hero__container ">

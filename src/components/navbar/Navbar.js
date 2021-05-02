@@ -10,16 +10,9 @@ const Navbar = () => {
             >
                 Luigi Morel
             </Link>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navBarResponsive"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
             <nav class="ml-5" id="navBarResponsive">
-                <Link to="/" className="p-5  text-dark nav__link">
+                <Link to="/" className="p-5 text-dark nav__link">
                     Home
                 </Link>
                 <Link to="/porfolio" className="p-5 text-dark nav__link">
@@ -28,7 +21,6 @@ const Navbar = () => {
                 <Link to="/blog" className="p-5 text-dark nav__link">
                     Blog
                 </Link>
-               
             </nav>
         </div>
     );
