@@ -1,13 +1,11 @@
-import React, { useState }from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
+    const [name, setName] = useState('');
+    const [emailAddress, setEmailAddress] = useState('');
+    const [reason, setReason] = useState('');
+    const [message, setMessage] = useState('');
 
-    const [name, setName] = useState("")
-    const [emailAddress, setEmailAddress] = useState('')
-    const [reason, setReason] = useState('')
-    const [message, setMessage] = useState('')
-    
-     
     return (
         <>
             <h4
