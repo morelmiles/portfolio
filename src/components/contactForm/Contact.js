@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState }from 'react';
 
 const Contact = () => {
+
+    const [name, setName] = useState("")
+    const [emailAddress, setEmailAddress] = useState('')
+    const [reason, setReason] = useState('')
+    const [message, setMessage] = useState('')
+    
+     
     return (
         <>
             <h4
@@ -15,10 +22,9 @@ const Contact = () => {
             </p>
             <div className="container">
                 <div className="row">
-<div className=""></div>
+                    <div className=""></div>
                 </div>
                 <form>
-                    
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
@@ -28,6 +34,9 @@ const Contact = () => {
                                 placeholder="Name"
                                 value=""
                                 required
+                                onChange={(event) =>
+                                    setName(event.target.value)
+                                }
                             />
                             <div class="invalid-feedback">
                                 Valid name is required.
@@ -40,6 +49,10 @@ const Contact = () => {
                                 id="email"
                                 placeholder="Email Address"
                                 value=""
+                                autoComplete="email"
+                                onChange={(event) =>
+                                    setEmailAddress(event.target.value)
+                                }
                                 required
                             />
                             <div class="invalid-feedback">
@@ -54,6 +67,9 @@ const Contact = () => {
                                 id="reason"
                                 placeholder="Select reason"
                                 required
+                                onChange={(event) =>
+                                    setReason(event.target.value)
+                                }
                             >
                                 <option value="">Select a reason...</option>
                                 <option value="hi">I just wanna say Hi</option>
@@ -69,6 +85,10 @@ const Contact = () => {
                             <textarea
                                 className="form-control"
                                 rows="4"
+                                onChange={(event) =>
+                                    setMessage(event.target.value)
+                                }
+                                required
                                 placeholder="Message"
                             ></textarea>
                         </div>
