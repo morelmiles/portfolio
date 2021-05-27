@@ -18,7 +18,7 @@ const Projects = () => {
                         <img
                             src={img}
                             alt="Completed project"
-                            className="img-card img-responsive"
+                            className="img-card img-responsive my-3"
                         />
 
                         <div className="card-body text__container  ">
@@ -36,7 +36,7 @@ const Projects = () => {
                         <img
                             src={img}
                             alt="Completed project"
-                            className="img-card img-responsive"
+                            className="img-card img-responsive my-3"
                         />
 
                         <div className="card-body text__container  ">
@@ -54,7 +54,7 @@ const Projects = () => {
                         <img
                             src={img}
                             alt="Completed project"
-                            className="img-card img-responsive"
+                            className="img-card img-responsive my-3"
                         />
 
                         <div className="card-body text__container  ">
@@ -72,7 +72,7 @@ const Projects = () => {
                         <img
                             src={img}
                             alt="Completed project"
-                            className="img-card img-responsive"
+                            className="img-card img-responsive my-3"
                         />
                         <div className="card-body text__container ">
                             <span className="project__text">
@@ -89,7 +89,7 @@ const Projects = () => {
                         <img
                             src={img}
                             alt="Completed project"
-                            className="img-card img-responsive"
+                            className="img-card img-responsive my-3"
                         />
                         <div className="card-body text__container ">
                             <span className="project__text">
@@ -106,7 +106,7 @@ const Projects = () => {
                         <img
                             src={img}
                             alt="Completed project"
-                            className="img-card img-responsive"
+                            className="img-card img-responsive my-3"
                         />
                         <div className="card-body text__container ">
                             <span className="project__text">
