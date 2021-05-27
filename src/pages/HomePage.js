@@ -7,7 +7,7 @@ import Projects from '../components/projects/Projects';
 import Skills from '../components/skills/Skills';
 
 const HomePage = () => (
-    <div>
+    <div style={{ margin: '15px' }}>
         <Navbar />
         <Hero />
         <Skills />

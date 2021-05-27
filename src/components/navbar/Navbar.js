@@ -11,15 +11,17 @@ const Navbar = () => {
                 Luigi Morel
             </Link>
 
-            <nav class="ml-5" id="navBarResponsive">
+            <nav class="mx-auto" id="navBarResponsive">
                 <Link to="/" className="p-5 text-dark nav__link">
                     Home
                 </Link>
-                <Link to="/porfolio" className="p-5 text-dark nav__link">
+                <Link
+                    to="https://drive.google.com/file/d/1Fn5n1XD7VgfIOeM3mORg_a9pN-Jym3O6/view?usp=sharing"
+                    className="p-5 text-dark nav__link"
+                    target="_blank"
+                    noreferrer
+                >
                     Resume
-                </Link>
-                <Link to="/blog" className="p-5 text-dark nav__link">
-                    Blog
                 </Link>
             </nav>
         </div>

@@ -72,9 +72,6 @@ nav {
     font-size: 24px;
 }
 
-.hero__text {
-    margin-top: 3rem;
-}
 .hero__img {
     height: 384.43px;
     border-radius: 50%;
@@ -83,8 +80,6 @@ nav {
 .hero__para {
     font-size: 18px;
     font-weight: 400;
-        margin-right: 100px;
-
 }
 
 .hero__icons {
@@ -92,6 +87,9 @@ nav {
     color: var(--iconColor);
 }
 
+.icons__container {
+    margin: 0 auto;
+}
 @media screen and (max-width: 768px) {
     .name__logo {
         margin-left: 0.5rem;
@@ -112,13 +110,19 @@ nav {
         margin-left: 0;
     }
 
-    .hero__text {
-        margin: 2rem 3rem 1.2rem 3rem;
-    }
-
-    .nav__link{
+    .nav__link {
         padding: 0;
     }
+    .nav__link {
+        margin-left: 0;
+    }
+    .nav__bar {
+        margin-left: '0';
+    }
+    nav {
+        margin-left: 0;
+    }
+
     .hero__img {
         display: block;
         margin: 2rem;
@@ -162,8 +166,7 @@ h4 .heading {
 
     .icon {
         font-size: 3rem;
-            padding: 0 1rem;
-
+        padding: 0 1rem;
     }
 }
 
@@ -186,10 +189,11 @@ h4 .heading {
     height: 60px;
 }
 
-input::placeholder, textarea::placeholder{
-color: var(--placeholders);
+input::placeholder,
+textarea::placeholder {
+    color: var(--placeholders);
 }
-option:first-child{
+option:first-child {
     color: var(--placeholders);
 }
 
@@ -212,14 +216,13 @@ option:first-child{
 /* PROJECTS */
 
 .project__card {
-            box-shadow: 10px 10px 5px var(--primaryDark), -10px -10px 5px var(--iconColor) !important;
-margin: 2rem;
-
+    box-shadow: 3px 3px 5px var(--primaryDark), -3px -3px 5px var(--iconColor) !important;
+    margin: 2rem;
 }
 
 img.img-card {
     height: auto;
-margin: 2rem;
+    margin: 2rem;
 }
 
 .text__container {
@@ -242,10 +245,10 @@ margin: 2rem;
 
 /* BLOG PAGE  */
 
-.jumbo__container{
+.jumbo__container {
     width: 100%;
 }
-    /* 
+/* 
     .jumbo__text{
         margin: ;
     } */
