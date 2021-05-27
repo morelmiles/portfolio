@@ -30,7 +30,7 @@ const Contact = () => {
                                 className="form-control input__box"
                                 id="name"
                                 placeholder="Name"
-                                value=""
+                                value={name}
                                 required
                                 onChange={(event) =>
                                     setName(event.target.value)
@@ -46,7 +46,7 @@ const Contact = () => {
                                 className="form-control input__box"
                                 id="email"
                                 placeholder="Email Address"
-                                value=""
+                                value={emailAddress}
                                 autoComplete="email"
                                 onChange={(event) =>
                                     setEmailAddress(event.target.value)
@@ -63,6 +63,7 @@ const Contact = () => {
                             <select
                                 class=" d-block form-control input__box box-shadow w-100"
                                 id="reason"
+                                value={reason}
                                 placeholder="Select reason"
                                 required
                                 onChange={(event) =>
@@ -83,6 +84,7 @@ const Contact = () => {
                             <textarea
                                 className="form-control"
                                 rows="4"
+                                value={message}
                                 onChange={(event) =>
                                     setMessage(event.target.value)
                                 }
