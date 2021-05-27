@@ -73,7 +73,8 @@ nav {
 }
 
 .hero__img {
-    height: 384.43px;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -124,12 +125,7 @@ nav {
     }
 
     .hero__img {
-        display: block;
-        margin: 2rem;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: 192.43px;
+        margin-bottom: 2rem;
     }
     .hero__para {
         margin-right: 0;
@@ -216,7 +212,7 @@ option:first-child {
 /* PROJECTS */
 
 .project__card {
-    box-shadow: 3px 3px 5px var(--primaryDark), -3px -3px 5px var(--iconColor) !important;
+    box-shadow: 2px 2px 3px var(--primaryDark), -2px -2px 3px var(--iconColor) !important;
     margin: 2rem;
 }
 
@@ -227,8 +223,8 @@ img.img-card {
 
 .text__container {
     display: flex;
-    width: 250px;
-    justify-content: space-between;
+    width: auto;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }

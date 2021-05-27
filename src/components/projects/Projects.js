@@ -31,7 +31,7 @@ const Projects = () => {
                                 </Link>
                             </span>
                         </div>
-                    </div>{' '}
+                    </div>
                     <div className="col-md-3 project__card  card ">
                         <img
                             src={img}
@@ -49,7 +49,7 @@ const Projects = () => {
                                 </Link>
                             </span>
                         </div>
-                    </div>{' '}
+                    </div>
                     <div className="col-md-3 project__card  card ">
                         <img
                             src={img}
