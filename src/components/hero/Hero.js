@@ -29,7 +29,7 @@ function Hero() {
                         habitant proin habitant v olutpat mauris, neque, et,
                         lectus in mi
                     </p>
-                    <div className=" icons__container">
+                    <div className=" icons__container mb-3">
                         <i className="hero__icons mx-3">
                             <FaGithub />
                         </i>

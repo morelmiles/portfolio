@@ -16,12 +16,12 @@ const Skills = () => {
     return (
         <>
             <h4
-                className=" text-center my-5  
+                className=" text-center my-3
        heading text-dark"
             >
                 Technical Skills
             </h4>
-            <div className="container">
+            <div className="container ">
                 <div className="icon__container">
                     <i className="icon">
                         <FaNodeJs />

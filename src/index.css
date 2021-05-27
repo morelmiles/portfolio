@@ -157,7 +157,7 @@ h4 .heading {
 
 @media screen and (max-width: 768px) {
     .icon__container {
-        margin-left: 40px;
+        margin: 0 auto;
     }
 
     .icon {
@@ -186,8 +186,9 @@ h4 .heading {
 }
 
 input::placeholder,
-textarea::placeholder {
-    color: var(--placeholders);
+textarea::placeholder,
+select::placeholder {
+    color: red;
 }
 option:first-child {
     color: var(--placeholders);
