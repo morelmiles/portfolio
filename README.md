@@ -4,10 +4,12 @@
 
 This repo contains the code that was used to build my personal website. [https://luigimorel.me](https://luigimorel.me). I used
 
+
 ```bash
 - Reactjs
 - Bootstrap
 - Netlify (for hosting)
+
 - Namecheap for the domain name
 ```
 
@@ -22,4 +24,5 @@ $ yarn install
 
 $ yarn start
 
+=======
 ```
