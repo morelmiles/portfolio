@@ -2,9 +2,27 @@ import React, { useState } from 'react';
 
 const Contact = () => {
     const [name, setName] = useState('');
-    const [emailAddress, setEmailAddress] = useState('');
+    const [email, setEmail] = useState('');
     const [reason, setReason] = useState('');
     const [message, setMessage] = useState('');
+
+    const encode = (data) => {
+        const formData = new FormData();
+        Object.keys(data).forEach((k) => {
+            formData.append(k, data[k]);
+        });
+        return formData;
+    };
+    const handleSubmit = (e) => {
+        const data = { 'form-name': 'contact', name, email, message, reason };
+
+        fetch('/', {
+            method: 'POST',
+            // headers: { "Content-Type": 'multipart/form-data; boundary=random' },
+            body: encode(data),
+        });
+        e.preventDefault();
+    };
 
     return (
         <>
@@ -19,15 +37,12 @@ const Contact = () => {
                 Get in touch.
             </p>
             <p className="text-center">
-                Buzz me on <a href="tel:+256 704 916 696">+256 704 916 696</a>{' '}
-                <br />
+                WhatsApp me on
+                <a href="tel:+256 704 916 696">+256 704 916 696</a> <br />
                 Or fill in the form below
             </p>
             <div className="container">
-                <div className="row">
-                    <div className=""></div>
-                </div>
-                <form name="contact" method="POST" data-netlify="true">
+                <form onSubmit={handleSubmit} action="/succes/">
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
@@ -53,10 +68,10 @@ const Contact = () => {
                                 id="email"
                                 name="email"
                                 placeholder="Email Address"
-                                value={emailAddress}
+                                value={email}
                                 autoComplete="email"
                                 onChange={(event) =>
-                                    setEmailAddress(event.target.value)
+                                    setEmail(event.target.value)
                                 }
                                 required
                             />
