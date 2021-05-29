@@ -42,7 +42,19 @@ const Contact = () => {
                 Or fill in the form below
             </p>
             <div className="container">
-                <form onSubmit={handleSubmit} netlify action="/success/">
+                <form
+                    action="/success"
+                    onSubmit="submit"
+                    name="contact"
+                    data-netlify="true"
+                    method="POST"
+                    data-netlify-honeypot="bot-field"
+                >
+                    <input type="hidden" name="form-name" value="contact" />
+
+                    <div hidden>
+                        <input name="bot-field" />
+                    </div>
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
