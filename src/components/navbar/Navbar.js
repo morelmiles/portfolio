@@ -19,7 +19,7 @@ const Navbar = () => {
                     href="https://drive.google.com/file/d/1Fn5n1XD7VgfIOeM3mORg_a9pN-Jym3O6/view?usp=sharing"
                     className="p-5 text-dark nav__link"
                     target="_blank"
-                    noreferrer
+                    rel="noreferrer"
                 >
                     Resume
                 </a>

@@ -2,8 +2,7 @@ import React from 'react';
 
 import heroImg from '../../assets/img/hero-img.jpg';
 
-import { FaGithub, FaDribbble, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function Hero() {
     return (
@@ -43,7 +42,7 @@ function Hero() {
                             <a
                                 href="https://github.com/morelmiles"
                                 target="_blank"
-                                noreferrer
+                                rel="noreferrer"
                             >
                                 <FaGithub />
                             </a>
@@ -52,7 +51,7 @@ function Hero() {
                             <a
                                 href="https://www.linkedin.com/in/luigimorel/"
                                 target="_blank"
-                                noreferrer
+                                rel="noreferrer"
                             >
                                 <FaLinkedin />
                             </a>
@@ -61,7 +60,7 @@ function Hero() {
                             <a
                                 href="https://twitter.com/LuigiMorel_/"
                                 target="_blank"
-                                noreferrer
+                                rel="noreferrer"
                             >
                                 <FaTwitter />
                             </a>
