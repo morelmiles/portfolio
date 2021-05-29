@@ -42,7 +42,7 @@ const Contact = () => {
                 Or fill in the form below
             </p>
             <div className="container">
-                <form onSubmit={handleSubmit} action="/succes/">
+                <form onSubmit={handleSubmit} netlify action="/success/">
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
