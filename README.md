@@ -2,10 +2,24 @@
 
 ### Introduction
 
-This repo contains the code that was used to build my personal website. (https://luigimorel.me)[https://luigimorel.me]. I used
+This repo contains the code that was used to build my personal website. [https://luigimorel.me](https://luigimorel.me). I used
 
 ```bash
 - Reactjs
 - Bootstrap
 - Netlify (for hosting)
+- Namecheap for the domain name
+```
+
+### Local set-up
+
+```bash
+# Install dependencies
+
+$ yarn install
+
+# Serve with hot reload at localhost:3000
+
+$ yarn start
+
 ```
