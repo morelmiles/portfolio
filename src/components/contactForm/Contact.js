@@ -21,7 +21,7 @@ function Contact() {
             </p>
             <div className="container">
                 <form
-                    action="/success/"
+                    action="/success"
                     onSubmit="submit"
                     data-netlify="true"
                     method="POST"

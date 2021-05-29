@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router';
 import BlogPage from './pages/Blog';
 import HomePage from './pages/HomePage';
 import { Helmet } from 'react-helmet';
+import Success from './Success';
 
 <Helmet>
     <meta name="title" content="Luigi Morel" />
@@ -27,6 +28,7 @@ const App = () => {
             <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route exact path="/blog" component={BlogPage} />
+                <Route exact path="/success" component={Success} />
             </Switch>
         </>
     );
