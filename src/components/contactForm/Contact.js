@@ -1,29 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Contact = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [reason, setReason] = useState('');
-    const [message, setMessage] = useState('');
-
-    const encode = (data) => {
-        const formData = new FormData();
-        Object.keys(data).forEach((k) => {
-            formData.append(k, data[k]);
-        });
-        return formData;
-    };
-    const handleSubmit = (e) => {
-        const data = { 'form-name': 'contact', name, email, message, reason };
-
-        fetch('/', {
-            method: 'POST',
-            // headers: { "Content-Type": 'multipart/form-data; boundary=random' },
-            body: encode(data),
-        });
-        e.preventDefault();
-    };
-
+function Contact() {
     return (
         <>
             <h4
@@ -32,6 +9,7 @@ const Contact = () => {
             >
                 Contact Me
             </h4>
+
             <p className="text-center contact__para">
                 Want us to collaborate on a project? <br />
                 Get in touch.
@@ -42,7 +20,17 @@ const Contact = () => {
                 Or fill in the form below
             </p>
             <div className="container">
-                <form onSubmit={handleSubmit} netlify action="/success/">
+                <form
+                    action="/success/"
+                    data-netlify="true"
+                    method="POST"
+                    data-netlify-honeypot="bot-field"
+                >
+                    <input type="hidden" name="form-name" value="contact" />
+
+                    <div hidden>
+                        <input name="bot-field" />
+                    </div>
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
@@ -51,11 +39,7 @@ const Contact = () => {
                                 id="name"
                                 name="name"
                                 placeholder="Name"
-                                value={name}
                                 required
-                                onChange={(event) =>
-                                    setName(event.target.value)
-                                }
                             />
                             <div class="invalid-feedback">
                                 Valid name is required.
@@ -68,11 +52,7 @@ const Contact = () => {
                                 id="email"
                                 name="email"
                                 placeholder="Email Address"
-                                value={email}
                                 autoComplete="email"
-                                onChange={(event) =>
-                                    setEmail(event.target.value)
-                                }
                                 required
                             />
                             <div class="invalid-feedback">
@@ -85,13 +65,9 @@ const Contact = () => {
                             <select
                                 class=" d-block form-control input__box box-shadow w-100"
                                 id="reason"
-                                value={reason}
                                 placeholder="Select reason"
                                 name="reason"
                                 required
-                                onChange={(event) =>
-                                    setReason(event.target.value)
-                                }
                             >
                                 <option value="">Select a reason...</option>
                                 <option value="hi">I just wanna say Hi</option>
@@ -108,15 +84,12 @@ const Contact = () => {
                                 className="form-control"
                                 rows="4"
                                 name="message"
-                                value={message}
-                                onChange={(event) =>
-                                    setMessage(event.target.value)
-                                }
                                 required
                                 placeholder="Message"
                             ></textarea>
                         </div>
                     </div>
+
                     <button type="submit" className="btnSubmit mt-3 mb-3 btn">
                         Send Message
                     </button>
@@ -124,6 +97,6 @@ const Contact = () => {
             </div>
         </>
     );
-};
+}
 
 export default Contact;
