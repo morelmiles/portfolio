@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router';
 import BlogPage from './pages/Blog';
 import HomePage from './pages/HomePage';
 import { Helmet } from 'react-helmet';
-import Success from './components/success/Success';
 
 <Helmet>
     <meta name="title" content="Luigi Morel" />
