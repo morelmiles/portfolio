@@ -27,13 +27,14 @@ const Contact = () => {
                 <div className="row">
                     <div className=""></div>
                 </div>
-                <form>
+                <form name="contact" method="POST" data-netlify="true">
                     <div className="row">
                         <div className="col-md-6 mb-5">
                             <input
                                 type="text"
                                 className="form-control input__box"
                                 id="name"
+                                name="name"
                                 placeholder="Name"
                                 value={name}
                                 required
@@ -50,6 +51,7 @@ const Contact = () => {
                                 type="email"
                                 className="form-control input__box"
                                 id="email"
+                                name="email"
                                 placeholder="Email Address"
                                 value={emailAddress}
                                 autoComplete="email"
@@ -70,6 +72,7 @@ const Contact = () => {
                                 id="reason"
                                 value={reason}
                                 placeholder="Select reason"
+                                name="reason"
                                 required
                                 onChange={(event) =>
                                     setReason(event.target.value)
@@ -89,6 +92,7 @@ const Contact = () => {
                             <textarea
                                 className="form-control"
                                 rows="4"
+                                name="message"
                                 value={message}
                                 onChange={(event) =>
                                     setMessage(event.target.value)

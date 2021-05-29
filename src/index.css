@@ -248,7 +248,9 @@ img.img-card {
 .jumbo__container {
     width: 100%;
 }
-/* 
-    .jumbo__text{
-        margin: ;
-    } */
+
+/* SUCCESS PAGE */
+
+.success__text {
+    margin-top: 5rem;
+}
