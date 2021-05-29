@@ -23,6 +23,7 @@ function Contact() {
                 <form
                     action="/success"
                     onSubmit="submit"
+                    name="contact"
                     data-netlify="true"
                     method="POST"
                     data-netlify-honeypot="bot-field"
