@@ -18,6 +18,11 @@ const Contact = () => {
                 Want us to collaborate on a project? <br />
                 Get in touch.
             </p>
+            <p className="text-center">
+                Buzz me on <a href="tel:+256 704 916 696">+256 704 916 696</a>{' '}
+                <br />
+                Or fill in the form below
+            </p>
             <div className="container">
                 <div className="row">
                     <div className=""></div>
