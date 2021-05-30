@@ -22,14 +22,15 @@ function Hero() {
                         Automating business processes...
                     </h5>
                     <p className="hero__para">
-                        Luigi Morel is a Software Engineer. I'm a digital normad
-                        who has worked with companies and non-profits far and
-                        beyond.
+                        Luigi Morel is a Software Engineer and a digital normad
+                        who has worked with companies and non-profits both far
+                        and beyond.
                     </p>
                     <p className="hero__para">
                         I'm passionate about coding best practices, start-ups,
-                        product design and a firm believer in the potential
-                        crypto-currency revolution. ( Bitcoin, to the moon!).
+                        product design and a firm believer in the potential of
+                        the crypto-currency revolution. ( Bitcoin, to the
+                        moon!).
                     </p>
                     <p className="hero__para">
                         When I'm not writing software, I'm reading and engaging
