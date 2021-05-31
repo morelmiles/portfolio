@@ -9,7 +9,9 @@ import {
     FaJs,
     FaNodeJs,
     FaPhp,
+    FaEthereum,
     FaReact,
+    FaBitcoin,
 } from 'react-icons/fa';
 
 const Skills = () => {
@@ -35,6 +37,12 @@ const Skills = () => {
 
                     <i className="icon">
                         <FaHtml5 />
+                    </i>
+                    <i className="icon">
+                        <FaEthereum />
+                    </i>
+                    <i className="icon">
+                        <FaBitcoin />
                     </i>
                     <i className="icon">
                         <FaCss3 />
