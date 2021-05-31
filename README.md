@@ -4,13 +4,23 @@
 
 This repo contains the code that was used to build my personal website. [https://luigimorel.me](https://luigimorel.me). I used
 
-
 ```bash
-- Reactjs
-- Bootstrap
-- Netlify (for hosting)
+# Development
 
-- Namecheap for the domain name
+- Reactjs
+
+# CSS
+
+- Bootstrap
+
+# Hosting
+
+- Netlify
+
+# Domain Name
+
+- Namecheap
+
 ```
 
 ### Local set-up
