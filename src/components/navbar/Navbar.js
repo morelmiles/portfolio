@@ -12,12 +12,12 @@ const Navbar = () => {
             </Link>
 
             <nav class="mx-auto" id="navBarResponsive">
-                <Link to="/" className="p-5 text-dark nav__link">
-                    Home
+                <Link to="/" className="p-4 text-dark nav__link">
+                    Who I Am
                 </Link>
                 <a
                     href="https://drive.google.com/file/d/1Fn5n1XD7VgfIOeM3mORg_a9pN-Jym3O6/view?usp=sharing"
-                    className="p-5 text-dark nav__link"
+                    className="p-4 text-dark nav__link"
                     target="_blank"
                     rel="noreferrer"
                 >

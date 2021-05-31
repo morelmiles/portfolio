@@ -19,7 +19,7 @@ const Skills = () => {
                 className=" text-center my-3
        heading text-dark"
             >
-                Technical Skills
+                Technical Tools
             </h4>
             <div className="container ">
                 <div className="icon__container">
