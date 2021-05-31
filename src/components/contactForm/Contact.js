@@ -25,7 +25,7 @@ function Contact() {
                     onSubmit="submit"
                     name="contact"
                     data-netlify="true"
-                    method="POST"
+                    method="post"
                     data-netlify-honeypot="bot-field"
                 >
                     <input type="hidden" name="form-name" value="contact" />
@@ -63,24 +63,6 @@ function Contact() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 mb-2">
-                            <select
-                                class=" d-block form-control input__box box-shadow w-100"
-                                id="reason"
-                                placeholder="Select reason"
-                                name="reason"
-                                required
-                            >
-                                <option value="">Select a reason...</option>
-                                <option value="hi">I just wanna say Hi</option>
-                                <option value="project">
-                                    I have a project
-                                </option>
-                                <option value="inquiry">
-                                    I have an inquiry...
-                                </option>
-                            </select>
-                        </div>
                         <div className="col-md-6 mb-2">
                             <textarea
                                 className="form-control"
