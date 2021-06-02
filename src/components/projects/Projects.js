@@ -22,13 +22,13 @@ const Projects = () => {
 
                         <div className="card-body text__container  ">
                             <span className="project__text">
-                                <Link
-                                    to="https://solerchil.com"
+                                <a
+                                    href="https://solerchil.com"
                                     target="_blank"
-                                    noreferrer
+                                    rel="noreferrer"
                                 >
                                     Live Project
-                                </Link>
+                                </a>
                             </span>
                         </div>
                     </div>
@@ -41,13 +41,13 @@ const Projects = () => {
 
                         <div className="card-body text__container  ">
                             <span className="project__text">
-                                <Link
-                                    to="https://sohopefoundation.com"
+                                <a
+                                    href="https://sohopefoundation.com"
                                     target="_blank"
-                                    noreferrer
+                                    rel="noreferrer"
                                 >
                                     Live Project
-                                </Link>
+                                </a>
                             </span>
                         </div>
                     </div>
@@ -60,13 +60,13 @@ const Projects = () => {
 
                         <div className="card-body text__container  ">
                             <span className="project__text">
-                                <Link
-                                    to="https://github.com/morelmiles/portfolio"
-                                    noreferrer
+                                <a
+                                    href="https://github.com/morelmiles/portfolio"
+                                    rel="noreferrer"
                                     target="_blank"
                                 >
                                     Live Project
-                                </Link>
+                                </a>
                             </span>
                             <span className="hero__icon">
                                 <Link>
