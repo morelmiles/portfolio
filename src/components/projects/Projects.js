@@ -17,6 +17,7 @@ const Projects = () => {
                         <img
                             src="https://res.cloudinary.com/morelmiles/image/upload/v1622252692/Screenshot_162_blgryx.png"
                             alt="Completed project"
+                            loading="lazy"
                             className="img-card img-responsive my-3"
                         />
 
@@ -55,6 +56,7 @@ const Projects = () => {
                         <img
                             src="https://res.cloudinary.com/morelmiles/image/upload/v1622254114/Screenshot_164_ezxyv9.png"
                             alt="Completed project"
+                            loading="lazy"
                             className="img-card img-responsive my-3"
                         />
 
@@ -63,6 +65,7 @@ const Projects = () => {
                                 <a
                                     href="https://github.com/morelmiles/portfolio"
                                     rel="noreferrer"
+                                    loading="lazy"
                                     target="_blank"
                                 >
                                     Live Project
