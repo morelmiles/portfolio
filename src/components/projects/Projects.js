@@ -5,12 +5,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <>
-            <h4
-                className=" text-center my-5
-       heading text-dark"
-            >
-                Projects
-            </h4>
+            <h4 className=" text-center my-5 heading text-dark">Projects</h4>
             <div className="container">
                 <div className="row ">
                     <div className="col-md-3 project__card  card ">
