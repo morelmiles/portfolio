@@ -3,8 +3,6 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 import heroImg from '../../assets/img/hero-img.jpg';
 
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-
 function Hero() {
     return (
         <div className="container">
