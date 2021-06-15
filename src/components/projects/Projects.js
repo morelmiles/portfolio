@@ -42,7 +42,7 @@ const Projects = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Go to Site {''} <FaExternalLinkAlt />
+                                    Open link {''} <FaExternalLinkAlt />
                                 </a>
                             </span>
                         </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                                     loading="lazy"
                                     target="_blank"
                                 >
-                                    Go to Site {''} <FaExternalLinkAlt />
+                                    Open link {''} <FaExternalLinkAlt />
                                 </a>
                             </span>
                             <span className="hero__icon">
