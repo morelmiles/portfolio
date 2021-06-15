@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 import heroImg from '../../assets/img/hero-img.jpg';
 
