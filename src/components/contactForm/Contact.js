@@ -15,7 +15,7 @@ function Contact() {
                 Get in touch.
             </p>
             <p className="text-center">
-                WhatsApp me on
+                WhatsApp me on {'  '}
                 <a href="tel:+256 704 916 696">+256 704 916 696</a> <br />
                 Or email me on{' '}
                 <a href="mailto:morelmiles@gmail.com">

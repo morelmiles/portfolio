@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -23,7 +23,7 @@ const Projects = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Live Project
+                                    Open link {''} <FaExternalLinkAlt />
                                 </a>
                             </span>
                         </div>
@@ -42,7 +42,7 @@ const Projects = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Live Project
+                                    Go to Site {''} <FaExternalLinkAlt />
                                 </a>
                             </span>
                         </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                                     loading="lazy"
                                     target="_blank"
                                 >
-                                    Live Project
+                                    Go to Site {''} <FaExternalLinkAlt />
                                 </a>
                             </span>
                             <span className="hero__icon">
