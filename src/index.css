@@ -194,9 +194,6 @@ h4 .heading {
     height: 60px;
 }
 
-::placeholder {
-    color: red;
-}
 option:first-child {
     color: var(--placeholders);
 }
@@ -243,6 +240,7 @@ img.img-card {
     margin-top: 6rem;
     margin-bottom: 3rem;
 }
+
 .footer {
     font-family: 'AtamiBold';
 }
