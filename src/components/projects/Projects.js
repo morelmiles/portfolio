@@ -57,19 +57,19 @@ const Projects = () => {
 
                         <div className="card-body text__container  ">
                             <span className="project__text">
+                                <Link to="/">
+                                    Open link {''} <FaExternalLinkAlt />
+                                </Link>
+                            </span>
+                            <span className="hero__icon">
                                 <a
                                     href="https://github.com/morelmiles/portfolio"
                                     rel="noreferrer"
                                     loading="lazy"
                                     target="_blank"
                                 >
-                                    Open link {''} <FaExternalLinkAlt />
-                                </a>
-                            </span>
-                            <span className="hero__icon">
-                                <Link>
                                     <FaGithub />
-                                </Link>
+                                </a>
                             </span>
                         </div>
                     </div>
