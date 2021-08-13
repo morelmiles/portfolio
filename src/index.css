@@ -221,6 +221,11 @@ option:first-child {
     margin: 2rem;
 }
 
+.project__card__header {
+    font-weight: bold;
+    color: var(--iconColor);
+}
+
 img.img-card {
     width: 100%;
     height: auto;

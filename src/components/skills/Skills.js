@@ -15,6 +15,20 @@ import {
 } from 'react-icons/fa';
 
 const Skills = () => {
+    const skills = [
+        { index: 1, skill: <FaNodeJs /> },
+        { index: 2, skill: <FaReact /> },
+        { index: 3, skill: <FaJs /> },
+        { index: 4, skill: <FaHtml5 /> },
+        { index: 5, skill: <FaEthereum /> },
+        { index: 6, skill: <FaBitcoin /> },
+        { index: 8, skill: <FaJava /> },
+        { index: 9, skill: <FaPhp /> },
+        { index: 10, skill: <FaDatabase /> },
+        { index: 11, skill: <FaBootstrap /> },
+        { index: 12, skill: <FaFigma /> },
+        { index: 13, skill: <FaCss3 /> },
+    ];
     return (
         <>
             <h4
@@ -25,44 +39,11 @@ const Skills = () => {
             </h4>
             <div className="container ">
                 <div className="icon__container">
-                    <i className="icon">
-                        <FaNodeJs />
-                    </i>
-                    <i className="icon">
-                        <FaReact />
-                    </i>
-                    <i className="icon">
-                        <FaJs />
-                    </i>
-
-                    <i className="icon">
-                        <FaHtml5 />
-                    </i>
-                    <i className="icon">
-                        <FaEthereum />
-                    </i>
-                    <i className="icon">
-                        <FaBitcoin />
-                    </i>
-                    <i className="icon">
-                        <FaCss3 />
-                    </i>
-                    <i className="icon">
-                        <FaJava />
-                    </i>
-
-                    <i className="icon">
-                        <FaPhp />
-                    </i>
-                    <i className="icon">
-                        <FaFigma />
-                    </i>
-                    <i className="icon">
-                        <FaDatabase />
-                    </i>
-                    <i className="icon">
-                        <FaBootstrap />
-                    </i>
+                    {skills.map((x, index) => (
+                        <i className="icon" key={index}>
+                            {x.skill}
+                        </i>
+                    ))}
                 </div>
             </div>
         </>
