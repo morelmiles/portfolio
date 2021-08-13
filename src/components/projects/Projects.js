@@ -25,7 +25,7 @@ const Projects = () => {
 
         {
             imgLink:
-                'https://res.cloudinary.com/morelmiles/image/upload/v1622252699/Screenshot_163_kee4wq.png',
+                'https://res.cloudinary.com/morelmiles/image/upload/v1622252692/Screenshot_162_blgryx.png',
             altText: 'Solerchil',
             heading: 'Solerchil',
             descText:
