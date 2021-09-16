@@ -16,10 +16,10 @@ const Navbar = () => {
                     Who I Am
                 </Link>
                 <a
-                    href="https://drive.google.com/file/d/1Fn5n1XD7VgfIOeM3mORg_a9pN-Jym3O6/view?usp=sharing"
+                    href="src/assets/resume.pdf"
                     className="p-4 text-dark nav__link"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noreferrer nopenner"
                 >
                     Resume
                 </a>
