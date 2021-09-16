@@ -6,7 +6,7 @@ const Projects = () => {
         {
             id: 1,
             imgLink:
-                '        https://res.cloudinary.com/morelmiles/image/upload/v1631787384/Screenshot_2021-09-16_130702_qrzrtk.jpg',
+                'https://res.cloudinary.com/morelmiles/image/upload/v1631787384/Screenshot_2021-09-16_130702_qrzrtk.jpg',
             altText: 'Credit Berkley',
             heading: 'Credit Berkley',
             descText:
@@ -65,7 +65,7 @@ const Projects = () => {
                     {projectDetails.map((project) => (
                         <div
                             key="index"
-                            className="col-md-3 project__card  card "
+                            className="col-md-3 px-3 project__card  card "
                         >
                             <img
                                 src={project.imgLink}

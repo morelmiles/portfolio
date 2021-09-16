@@ -12,22 +12,24 @@ import {
     FaEthereum,
     FaReact,
     FaBitcoin,
+    FaDocker,
 } from 'react-icons/fa';
 
 const Skills = () => {
     const skills = [
-        { index: 1, skill: <FaNodeJs /> },
-        { index: 2, skill: <FaReact /> },
-        { index: 3, skill: <FaJs /> },
-        { index: 4, skill: <FaHtml5 /> },
-        { index: 5, skill: <FaEthereum /> },
-        { index: 6, skill: <FaBitcoin /> },
-        { index: 8, skill: <FaJava /> },
-        { index: 9, skill: <FaPhp /> },
-        { index: 10, skill: <FaDatabase /> },
-        { index: 11, skill: <FaBootstrap /> },
-        { index: 12, skill: <FaFigma /> },
-        { index: 13, skill: <FaCss3 /> },
+        { id: 1, skill: <FaDocker /> },
+        { id: 2, skill: <FaReact /> },
+        { id: 3, skill: <FaJs /> },
+        { id: 4, skill: <FaHtml5 /> },
+        { id: 5, skill: <FaEthereum /> },
+        { id: 6, skill: <FaBitcoin /> },
+        { id: 8, skill: <FaJava /> },
+        { id: 9, skill: <FaPhp /> },
+        { id: 10, skill: <FaDatabase /> },
+        { id: 11, skill: <FaBootstrap /> },
+        { id: 12, skill: <FaFigma /> },
+        { id: 13, skill: <FaCss3 /> },
+        { id: 14, skill: <FaNodeJs /> },
     ];
     return (
         <>
@@ -39,8 +41,8 @@ const Skills = () => {
             </h4>
             <div className="container ">
                 <div className="icon__container">
-                    {skills.map((x, index) => (
-                        <i className="icon" key={index}>
+                    {skills.map((x, id) => (
+                        <i className="icon" key={id}>
                             {x.skill}
                         </i>
                     ))}
