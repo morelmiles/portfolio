@@ -17,9 +17,8 @@ const Navbar = () => {
                 </Link>
                 <a
                     href="src/assets/resume.pdf"
+                    download
                     className="p-4 text-dark nav__link"
-                    target="_blank"
-                    rel="noreferrer nopenner"
                 >
                     Resume
                 </a>
