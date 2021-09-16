@@ -28,17 +28,6 @@ const Projects = () => {
         {
             id: 3,
             imgLink:
-                'https://res.cloudinary.com/morelmiles/image/upload/v1622254114/Screenshot_164_ezxyv9.png',
-            altText: 'Personal Website',
-            heading: 'Personal Website',
-            descText: 'Built to boost Luigi Morels personal brand.',
-            link: 'https://luigimorel.me',
-            ghLink: 'https://github.com/morelmiles/portfolio',
-        },
-
-        {
-            id: 4,
-            imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1622252692/Screenshot_162_blgryx.png',
             altText: 'Solerchil',
             heading: 'Solerchil',
@@ -47,7 +36,7 @@ const Projects = () => {
             link: 'https://solerchil.com',
         },
         {
-            id: 5,
+            id: 4,
             imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1622252699/Screenshot_163_kee4wq.png',
             altText: 'Strides of Hope Foundation',

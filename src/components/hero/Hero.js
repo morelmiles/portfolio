@@ -10,14 +10,18 @@ function Hero() {
                 <div className="col-md-6    ">
                     <img
                         className="img-responsive hero__img"
-                        src={heroImg}
+                        src={
+                            'https://images.unsplash.com/photo-1500856056008-859079534e9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                        }
                         loading="lazy"
                         srcSet
                         alt="Luigi Morel speaking at a conference "
                     />
                 </div>
                 <div className="col-md-5">
-                    <h5 className="heading hero__heading">Luigi Morel </h5>
+                    <h5 className="heading hero__heading text-center">
+                        Luigi Morel
+                    </h5>
                     <p className="hero__para">
                         I'm a Software Engineer and a digital normad who has
                         worked with corporate companies and non-profits.

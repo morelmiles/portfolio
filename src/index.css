@@ -2,7 +2,7 @@
 
 :root {
     --primaryDark: #212121;
-    --bgColor: #ecf3fd;
+    --bgColor: #ffffff;
     --iconColor: #41937a;
     --placeholders: #c4c4c4;
 }
@@ -84,7 +84,6 @@ nav {
 .hero__img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
 }
 
 .hero__para {
@@ -217,7 +216,7 @@ option:first-child {
 /* PROJECTS */
 
 .project__card {
-    box-shadow: 2px 2px 3px var(--primaryDark), -2px -2px 3px var(--iconColor) !important;
+    box-shadow: 1px 1px #212121, -1px -1px -1px -1px #ffffff !important;
     margin: 2rem;
 }
 
