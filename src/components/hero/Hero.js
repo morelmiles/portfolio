@@ -1,8 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
-import heroImg from '../../assets/img/hero-img.jpg';
-
 function Hero() {
     return (
         <div className="container">
