@@ -48,7 +48,9 @@ const Projects = () => {
     ];
     return (
         <>
-            <h4 className=" text-center my-5 heading text-dark"> Projects </h4>
+            <h4 className=" text-center mt-5 mb-3heading text-dark">
+                Projects
+            </h4>
             <div className="container">
                 <div className="row ">
                     {projectDetails.map((project) => (
