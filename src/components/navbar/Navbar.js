@@ -16,7 +16,7 @@ const Navbar = () => {
                     Who I Am
                 </Link>
                 <a
-                    href="src/assets/resume.pdf"
+                    href="src/assets/resume-web.pdf"
                     download
                     className="p-4 text-dark nav__link"
                 >
