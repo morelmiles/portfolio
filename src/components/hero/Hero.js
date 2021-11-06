@@ -13,7 +13,7 @@ function Hero() {
                         }
                         loading="lazy"
                         srcSet
-                        alt="Luigi Morel speaking at a conference "
+                        alt="Person basking in light "
                     />
                 </div>
                 <div className="col-md-5">
