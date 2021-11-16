@@ -77,11 +77,11 @@ const Projects = () => {
                 Projects
             </h4>
             <div className="container">
-                <div className="row ">
+                <div className="row projects__row">
                     {projectDetails.map((project) => (
                         <div
                             key={project.id}
-                            className="col-md-4 project__card  card "
+                            className="col-md-3 project__card mr-5  card "
                         >
                             <img
                                 src={project.imgLink}
@@ -95,7 +95,7 @@ const Projects = () => {
                             <p className="text-center my-1">
                                 {project.descText}
                             </p>
-                            <div className="card-body text__container  ">
+                            <div className="card-body text__container ">
                                 <span className="project__text">
                                     <a
                                         href={project.link}
