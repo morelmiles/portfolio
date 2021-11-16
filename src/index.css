@@ -172,6 +172,10 @@ h4 .heading {
         font-size: 3rem;
         padding: 0 1rem;
     }
+    .project__card {
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 389px) {
@@ -217,7 +221,8 @@ option:first-child {
 
 .project__card {
     box-shadow: 1px 1px #212121, -1px -1px -1px -1px #ffffff !important;
-    margin: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .project__card__header {
@@ -226,7 +231,7 @@ option:first-child {
 }
 
 img.img-card {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 

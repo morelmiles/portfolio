@@ -6,16 +6,49 @@ const Projects = () => {
         {
             id: 1,
             imgLink:
+                'https://res.cloudinary.com/morelmiles/image/upload/v1637045471/Screenshot_278_e2gk0y.png',
+            altText: 'Recruit Africa',
+            heading: 'Recruit Africa',
+            descText:
+                'Recruit Africa is a web application meant for talent recruitment agency ',
+            link: 'https://recruit-it.netlify.app/',
+            ghLink: 'https://github.com/morelmiles/recruit-africa',
+        },
+        {
+            id: 2,
+            imgLink:
+                'https://res.cloudinary.com/morelmiles/image/upload/v1637015429/Screenshot_277_d9o2zl.png',
+            altText: 'Executive Study Web',
+            heading: 'Executive Study Web',
+            descText:
+                'Executive Study Web is a website template for an institution of higher learning that can be customized. ',
+            link: 'https://exec-study.netlify.app/',
+            ghLink: 'https://github.com/morelmiles/study',
+        },
+        {
+            id: 1,
+            imgLink:
+                'https://res.cloudinary.com/morelmiles/image/upload/v1636038870/Screenshot_267_nxudam.png',
+            altText: 'LaslesVPN',
+            heading: 'LaslesVPN',
+            descText:
+                'LaslesVPN is a website template for a hypothetical SaaS company offering VPN services',
+            link: 'https://lasleslis.netlify.app/',
+            ghLink: 'https://github.com/morelmiles/vpn-landing-page',
+        },
+        {
+            id: 4,
+            imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1631787384/Screenshot_2021-09-16_130702_qrzrtk.jpg',
             altText: 'Credit Berkley',
             heading: 'Credit Berkley',
             descText:
-                'Creidt Berkley is a website template meant for a  fintech product ',
+                'Credit Berkley is a website template meant for a  fintech product ',
             link: 'https://credit-brekley.netlify.app/',
             ghLink: 'https://github.com/morelmiles/credit-berkley',
         },
         {
-            id: 2,
+            id: 5,
             imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1628839353/localhost_3000__2_bcbfml.png',
             altText: 'Techspaces Uganda',
@@ -26,7 +59,7 @@ const Projects = () => {
             ghLink: 'https://github.com/morelmiles/techspaces-uganda',
         },
         {
-            id: 3,
+            id: 6,
             imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1622252692/Screenshot_162_blgryx.png',
             altText: 'Solerchil',
@@ -36,7 +69,7 @@ const Projects = () => {
             link: 'https://solerchil.com',
         },
         {
-            id: 4,
+            id: 7,
             imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1622252699/Screenshot_163_kee4wq.png',
             altText: 'Strides of Hope Foundation',
@@ -46,17 +79,18 @@ const Projects = () => {
             link: 'https://sohopefoundation.com',
         },
     ];
+
     return (
         <>
-            <h4 className=" text-center mt-5 mb-3heading text-dark">
+            <h4 className=" text-center mt-5 mb-3 heading text-dark">
                 Projects
             </h4>
             <div className="container">
                 <div className="row ">
                     {projectDetails.map((project) => (
                         <div
-                            key="index"
-                            className="col-md-3 px-3 project__card  card "
+                            key={project.id}
+                            className="col-md-4 project__card  card "
                         >
                             <img
                                 src={project.imgLink}
