@@ -26,8 +26,7 @@ function Hero() {
                     </p>
                     <p className="hero__para">
                         I'm passionate about coding best practices, start-ups,
-                        product design and a firm believer in the potential of
-                        the crypto-currency revolution.
+                        and product design.
                     </p>
                     <p className="hero__para">
                         When I'm not writing software, I'm reading and engaging
