@@ -58,18 +58,9 @@ const Projects = () => {
             link: 'https://techspacesuganda.org',
             ghLink: 'https://github.com/morelmiles/techspaces-uganda',
         },
+
         {
             id: 6,
-            imgLink:
-                'https://res.cloudinary.com/morelmiles/image/upload/v1622252692/Screenshot_162_blgryx.png',
-            altText: 'Solerchil',
-            heading: 'Solerchil',
-            descText:
-                '  Website for a renewable energy startup serving a global market.',
-            link: 'https://solerchil.com',
-        },
-        {
-            id: 7,
             imgLink:
                 'https://res.cloudinary.com/morelmiles/image/upload/v1622252699/Screenshot_163_kee4wq.png',
             altText: 'Strides of Hope Foundation',
