@@ -16,7 +16,9 @@ const Navbar = () => {
                     Who I Am
                 </Link>
                 <a
-                    href="src/assets/resume-luigi-morel.pdf"
+                    href="https://drive.google.com/file/d/1zi2nXQLiauCgjo7NFlYvX-giFn-Kv7Qi/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer noopenner"
                     download
                     className="p-4 text-dark nav__link"
                 >
