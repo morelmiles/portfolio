@@ -8,19 +8,16 @@ const Navbar = () => {
                 to="/"
                 className="my-0 mr-md-auto font-weight-normal name__logo"
             >
-                Luigi Morel
+                L.M{' '}
             </Link>
 
             <nav class="mx-auto" id="navBarResponsive">
-                <Link to="/" className="p-4 text-dark nav__link">
-                    Who I Am
-                </Link>
                 <a
                     href="https://drive.google.com/file/d/1zi2nXQLiauCgjo7NFlYvX-giFn-Kv7Qi/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer noopenner"
                     download
-                    className="p-4 text-dark nav__link"
+                    className="p-4  nav__link"
                 >
                     Resume
                 </a>
