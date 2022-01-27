@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function Hero() {
     return (
-        <div className="container">
+        <div className="container ">
             <div className="row hero__container">
-                <div className="col-md-6    ">
+                <div className="col-md-6">
                     <img
                         className="img-responsive hero__img"
                         src={
