@@ -74,7 +74,7 @@ const Projects = () => {
     return (
         <>
             <h4 className=" text-center mt-5 mb-3 heading text-dark">
-                Projects
+                Personal Projects
             </h4>
             <div className="container">
                 <div className="row projects__row">
