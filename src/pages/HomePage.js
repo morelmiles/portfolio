@@ -1,18 +1,26 @@
-import React from 'react';
-import Contact from '../components/contactForm/Contact';
-import Footer from '../components/footer/Footer';
-import Hero from '../components/hero/Hero';
-import Navbar from '../components/navbar/Navbar';
-import Projects from '../components/projects/Projects';
+import React from 'react'
+
+// Components
+import Contact from '../components/contactForm/Contact'
+import Footer from '../components/footer/Footer'
+import Hero from '../components/hero/Hero'
+import Navbar from '../components/navbar/Navbar'
+import Projects from '../components/projects/Projects'
 
 const HomePage = () => (
-    <div style={{ margin: '15px' }}>
-        <Navbar />
-        <Hero />
-        <Projects />
-        <Contact />
-        <Footer />
-    </div>
-);
+  <div style={{ margin: '15px' }}>
+    <Navbar />
 
-export default HomePage;
+    <div className="hero-section">
+      <Hero />
+    </div>
+
+    <Projects />
+
+    <Contact />
+
+    <Footer />
+  </div>
+)
+
+export default HomePage
