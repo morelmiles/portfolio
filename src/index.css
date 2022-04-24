@@ -1,272 +1,305 @@
 /* GLOBAL STYLES */
 
 :root {
-    --primaryDark: #212121;
-    --bgColor: #ffffff;
-    --iconColor: #41937a;
-    --placeholders: #c4c4c4;
+  --primaryDark: #212121;
+  --bgColor: #ffffff;
+  --iconColor: #41937a;
+  --placeholders: #c4c4c4;
 }
 
 a {
-    color: var(--iconColor);
-    text-decoration: none;
+  color: var(--iconColor);
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--iconColor);
+  color: var(--iconColor);
 }
 
 body {
-    margin: 0;
-    scroll-behavior: smooth;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: var(--bgColor);
-}
-@font-face {
-    font-family: 'AtamiBold';
-    src: url('./assets/fonts/Atami-Bold.woff');
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url('./assets/img/cursor.png'), url('./assets/img/cursor.cur'),
+    default;
+  background-color: var(--bgColor);
 }
 
 @font-face {
-    font-family: 'Atami-Regular';
-    src: url('./assets/fonts/Atami-Regular.woff');
+  font-family: 'AtamiBold';
+  src: url('./assets/fonts/Atami-Bold.woff');
 }
 
 @font-face {
-    font-family: 'AtamiStencil';
-    src: url('./assets/fonts/Atami-Stencil.woff');
+  font-family: 'Atami-Regular';
+  src: url('./assets/fonts/Atami-Regular.woff');
+}
+
+@font-face {
+  font-family: 'AtamiStencil';
+  src: url('./assets/fonts/Atami-Stencil.woff');
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HERO */
 
 .name__logo {
-    font-family: 'AtamiBold';
-    margin-left: 3rem;
-    font-size: 2rem;
-    color: var(--primaryDark);
+  font-family: 'AtamiBold';
+  margin-left: auto;
+  font-size: 2rem;
+  color: var(--primaryDark);
+}
+
+.hero-section {
+  margin-bottom: 100px;
 }
 
 .nav__link {
-    font-family: 'Atami';
+  font-family: 'Atami';
 }
 
 .nav__bar {
-    height: 5rem;
-    margin-left: 100px;
+  height: 5rem;
+  margin-left: 100px;
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 nav {
-    margin-right: 6rem;
+  margin-right: 6rem;
 }
 
 .hero__container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    margin-bottom: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 7rem;
 }
 
 .hero__heading {
-    font-family: 'AtamiStencil';
-    font-size: 24px;
+  font-family: 'AtamiStencil';
+  font-size: 24px;
 }
 
 .hero__img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .hero__para {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .hero__icons {
-    font-size: 1.8rem;
-    color: var(--iconColor);
+  font-size: 1.8rem;
+  color: var(--iconColor);
+  transition: 0.3s;
 }
 
+.hero__icons {
+  transform: scale(1.2);
+}
 .icons__container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 @media screen and (max-width: 768px) {
-    .name__logo {
-        margin-left: 0.5rem;
-        font-size: 1rem;
-        display: none;
-    }
+  .name__logo {
+    font-size: 1rem;
+    display: none;
+  }
 
-    nav {
-        align-items: center;
-        margin: 0 auto;
-        justify-content: center;
-        background-color: var(--bgColor);
-    }
+  nav {
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: var(--bgColor);
+  }
 
-    .nav__bar {
-        background-color: var(--bgColor);
-        display: none;
-        margin-left: 0;
-    }
+  .nav__bar {
+    background-color: var(--bgColor);
+    display: none;
+    margin-left: 0;
+  }
 
-    .nav__link {
-        padding: 0;
-    }
-    .nav__link {
-        margin-left: 0;
-    }
-    .nav__bar {
-        margin-left: '0';
-    }
-    nav {
-        margin-left: 0;
-    }
+  .nav__link {
+    padding: 0;
+    margin-left: 0;
+  }
 
-    .hero__img {
-        margin-bottom: 2rem;
-    }
-    .hero__para {
-        margin-right: 0;
-    }
+  .nav__bar {
+    margin-left: '0';
+  }
+
+  nav {
+    margin-left: 0;
+  }
+
+  .hero__img {
+    margin-bottom: 2rem;
+  }
+
+  .hero__para {
+    margin-right: 0;
+  }
+
+  .hero-section {
+    margin-bottom: 20px;
+  }
 }
 
 /*  SKILLS */
 
 h4 .heading {
-    font-family: 'AtamiBold';
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
+  font-family: 'AtamiBold';
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .icon__container {
-    display: flex;
-    align-items: center;
-    display: block;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  display: block;
+  justify-content: center;
 }
 
 .icon {
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;
-    padding: 0 3rem;
-    color: var(--iconColor);
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  padding: 0 3rem;
+  color: var(--iconColor);
 }
 
 @media screen and (max-width: 768px) {
-    .icon__container {
-        margin: 0 auto;
-    }
+  .icon__container {
+    margin: 0 auto;
+  }
 
-    .icon {
-        font-size: 3rem;
-        padding: 0 1rem;
-    }
-    .project__card {
-        margin-right: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
+  .icon {
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
+
+  .project__card {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 389px) {
-    .icon__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+  .icon__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 /* CONTACT ME */
 
 .contact__para {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .input__box {
-    height: 60px;
+  height: 60px;
 }
 
 option:first-child {
-    color: var(--placeholders);
+  color: var(--placeholders);
 }
 
 .btnSubmit {
-    display: block;
-    align-items: center;
-    width: 10rem;
-    height: 3rem;
-    background-color: var(--iconColor);
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-family: 'AtamiBold';
+  display: block;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  background-color: var(--iconColor);
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'AtamiBold';
 }
 
 .btnSubmit:hover {
-    color: white;
+  color: white;
 }
 
 /* PROJECTS */
+.card {
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
 
 .project__card {
-    box-shadow: 1px 1px #212121, -1px -1px -1px -1px #ffffff !important;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project__card:hover {
+  border: none;
+}
+
+.card {
+  border: 0;
 }
 
 .projects__row {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .project__card__header {
-    font-weight: bold;
-    color: var(--iconColor);
+  font-weight: bold;
+  color: var(--iconColor);
 }
 
 img.img-card {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
 .text__container {
-    display: flex;
-    width: auto;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 /* FOOTER */
 
 .footer__container {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .footer {
-    font-family: 'AtamiBold';
+  font-family: 'AtamiBold';
 }
 
 /* BLOG PAGE  */
 
 .jumbo__container {
-    width: 100%;
+  width: 100%;
 }
 
 /* SUCCESS PAGE */
 
 .success__text {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
