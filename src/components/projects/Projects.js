@@ -61,9 +61,7 @@ const Projects = () => {
 
   return (
     <>
-      <h4 className=" text-center mt-5 mb-5 heading text-dark">
-        Personal Projects
-      </h4>
+      <h4 className=" text-center mt-5 mb-5 heading ">Personal Projects</h4>
 
       <div className="container">
         <div className="row projects__row">
@@ -80,7 +78,7 @@ const Projects = () => {
                 {project.heading}
               </h6>
 
-              <p className=" my-1">{project.descText}</p>
+              <p className=" my-1 text-dark">{project.descText}</p>
 
               <div className="card-body text__container ">
                 <span className="project__text">
