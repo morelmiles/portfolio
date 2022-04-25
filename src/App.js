@@ -1,11 +1,16 @@
 import React from 'react'
 import { Switch, Route } from 'react-router'
 import { Helmet } from 'react-helmet'
+import ReactGA from 'react-ga'
 
 // Components
 import BlogPage from './pages/Blog'
 import HomePage from './pages/HomePage'
 import Success from './Success'
+
+// Google analytics tracking
+const trackingID = 'G-YCM959KWKL'
+ReactGA.initialize(trackingID)
 
 const App = () => {
   return (
