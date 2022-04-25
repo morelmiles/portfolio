@@ -1,9 +1,10 @@
 /* GLOBAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 :root {
   --primaryDark: #212121;
   --bgColor: #ffffff;
-  --iconColor: #41937a;
+  --iconColor: #14a44c;
   --placeholders: #c4c4c4;
 }
 
@@ -18,12 +19,19 @@ a:hover {
 
 body {
   margin: 0;
+  color: #ffffff;
   scroll-behavior: smooth;
   padding: 0;
   box-sizing: border-box;
   cursor: url('./assets/img/cursor.png'), url('./assets/img/cursor.cur'),
     default;
-  background-color: var(--bgColor);
+  transition: cursor 3s linear;
+  background-color: var(--primaryDark);
+  font-family: 'PT Sans', sans-serif;
+}
+
+.heading {
+  color: #fff;
 }
 
 @font-face {
@@ -53,9 +61,10 @@ a:hover {
 
 .name__logo {
   font-family: 'AtamiBold';
-  margin-left: auto;
+  position: inherit;
+  margin-left: 1.5rem;
   font-size: 2rem;
-  color: var(--primaryDark);
+  color: white;
 }
 
 .hero-section {
@@ -247,6 +256,7 @@ option:first-child {
 
 .project__card {
   margin-bottom: 2rem;
+  margin-right: 1rem;
 }
 
 .project__card:hover {
