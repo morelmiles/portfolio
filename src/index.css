@@ -61,10 +61,8 @@ a:hover {
 
 .name__logo {
   font-family: 'AtamiBold';
-  position: inherit;
   margin-left: 1.5rem;
   font-size: 2rem;
-  color: white;
 }
 
 .hero-section {
@@ -72,6 +70,7 @@ a:hover {
 }
 
 .nav__link {
+  background: var(--primaryDark);
   font-family: 'Atami';
 }
 
@@ -113,6 +112,7 @@ nav {
   font-size: 1.8rem;
   color: var(--iconColor);
   transition: 0.3s;
+  padding: 1rem;
 }
 
 .hero__icons {
@@ -136,7 +136,7 @@ nav {
   }
 
   .nav__bar {
-    background-color: var(--bgColor);
+    background-color: var(--primaryDark);
     display: none;
     margin-left: 0;
   }
@@ -144,10 +144,6 @@ nav {
   .nav__link {
     padding: 0;
     margin-left: 0;
-  }
-
-  .nav__bar {
-    margin-left: '0';
   }
 
   nav {
@@ -164,6 +160,10 @@ nav {
 
   .hero-section {
     margin-bottom: 20px;
+  }
+
+  .hero__icons {
+    padding: 0;
   }
 }
 
