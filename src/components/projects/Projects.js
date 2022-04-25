@@ -80,7 +80,7 @@ const Projects = () => {
                 {project.heading}
               </h6>
 
-              <p className="text-center my-1">{project.descText}</p>
+              <p className=" my-1">{project.descText}</p>
 
               <div className="card-body text__container ">
                 <span className="project__text">
