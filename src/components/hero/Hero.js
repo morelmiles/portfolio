@@ -58,9 +58,8 @@ function Hero() {
           </p>
 
           <p className="hero__para">
-            When I'm not writing software, I'm reading and engaging in deep
-            talks about technologies and markets or prototyping a new product
-            idea that hit my mind a few seconds ago.
+            When I'm not writing software, I'm reading, engaging in
+            conversations about technologies and markets or taking long walks while listening to Afro EDM. 
           </p>
 
           <div className=" icons__container mb-3">
