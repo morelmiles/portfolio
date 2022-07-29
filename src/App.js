@@ -4,9 +4,7 @@ import { Helmet } from 'react-helmet'
 import ReactGA from 'react-ga'
 
 // Components
-import BlogPage from './pages/Blog'
-import HomePage from './pages/HomePage'
-import Success from './Success'
+ import HomePage from './pages/HomePage'
 
 // Google analytics tracking
 const trackingID = 'G-YCM959KWKL'
@@ -35,9 +33,7 @@ const App = () => {
 
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/blog" component={BlogPage} />
-        <Route exact path="/success" component={Success} />
-      </Switch>
+       </Switch>
     </>
   )
 }
