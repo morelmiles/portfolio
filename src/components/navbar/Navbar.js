@@ -10,7 +10,7 @@ const Navbar = () => {
 
       <nav class="mx-auto" id="navBarResponsive">
         <a
-          href="https://drive.google.com/file/d/1zi2nXQLiauCgjo7NFlYvX-giFn-Kv7Qi/view?usp=sharing"
+          href="./Luigi Morel CV.pdf"
           target="_blank"
           rel="noreferrer noopenner"
           download
